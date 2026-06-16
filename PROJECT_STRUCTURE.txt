@@ -1,0 +1,36 @@
+Luoyang Hanfu System - layout
+================================
+
+LuoyangHanfu-system/
+  backend/                 Maven Spring Boot API (port 8080)
+    pom.xml
+    src/main/java/com/luoyang/hanfu/
+      config/              Security, Swagger, WebMvc
+      controller/user/     /api/user/**
+      controller/admin/    /api/admin/**
+      service/ + impl/
+      mapper/
+      entity/ dto/ vo/
+      common/ util/ filter/
+    src/main/resources/
+      application.yml
+      sql/schema.sql
+
+  frontend/                Vite + Vue3 + Element Plus (port 5173)
+    src/
+      views/user/          Home, HanfuList, Orders, Profile
+      views/admin/         Admin pages
+      router/
+      stores/
+      utils/request.ts
+      constants/
+      styles/
+
+  scripts/
+    start-all.bat          Real launcher (paths relative to repo root)
+
+  start-all.bat            Wrapper: calls scripts\start-all.bat
+
+  docs/                    Requirements and AI prompt markdown (if moved)
+
+  .gitignore

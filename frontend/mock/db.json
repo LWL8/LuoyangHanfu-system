@@ -1,0 +1,88 @@
+{
+  "hanfu": [
+    {
+      "id": 1,
+      "name": "唐制齐胸襦裙 ・ 盛世牡丹",
+      "dynasty": "唐朝",
+      "pricePerDay": 168,
+      "images": [
+        "https://images.unsplash.com/photo-1543854589-32a26569eb21?w=800",
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800"
+      ],
+      "tags": ["显白", "拍照出片"],
+      "sizes": [
+        { "size": "S", "stock": 5 },
+        { "size": "M", "stock": 3 },
+        { "size": "L", "stock": 0 }
+      ],
+      "style": "复原款唐制齐胸襦裙，选用真丝面料，刺绣精美。",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "宋制褙子 ・ 清雅竹韵",
+      "dynasty": "宋朝",
+      "pricePerDay": 128,
+      "images": [
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba496?w=800"
+      ],
+      "tags": ["日常", "素雅"],
+      "sizes": [
+        { "size": "M", "stock": 8 },
+        { "size": "L", "stock": 2 }
+      ],
+      "style": "极简宋制，适合在洛邑古城悠闲漫步。",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "明制马面裙 ・ 云肩龙纹",
+      "dynasty": "明朝",
+      "pricePerDay": 228,
+      "images": [
+        "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800"
+      ],
+      "tags": ["显身段", "华丽"],
+      "sizes": [
+        { "size": "S", "stock": 4 },
+        { "size": "M", "stock": 1 }
+      ],
+      "style": "正统明制马面，织金工艺，极具宫廷端庄感。",
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderNo": "20260406-001",
+      "userId": 1,
+      "items": [
+        { "id": 1, "name": "唐制齐胸襦裙", "size": "M", "quantity": 1, "price": 168 }
+      ],
+      "services": [],
+      "bookingDate": "2026-04-10",
+      "timeSlot": "morning",
+      "userInfo": { "name": "张小婉", "phone": "13800138000", "remark": "" },
+      "totalAmount": 168,
+      "status": "paid",
+      "createdAt": "2026-04-06 10:00:00"
+    }
+  ],
+  "scenics": [
+    { "id": 1, "name": "龙门石窟", "desc": "世界文化遗产，卢舍那大佛慈悲壮丽。", "tag": "必打卡", "img": "https://images.unsplash.com/photo-1548011283-0a7b4f535804?w=800" },
+    { "id": 2, "name": "老君山", "desc": "远赴惊鸿宴，一睹人间盛世颜。", "tag": "云海", "img": "https://images.unsplash.com/photo-1583301119228-91a4daadcfea?w=800" }
+  ],
+  "routes": [
+    { "id": 1, "title": "隋唐神都一日游", "tags": ["宫殿", "大气"], "nodes": ["应天门", "明堂", "天堂"] }
+  ],
+  "notices": [
+    { "id": 1, "type": "rule", "title": "预约退改规范", "content": "提前48小时可全额退款..." }
+  ],
+  "stores": [
+    { "id": 1, "name": "洛裳汉服总店", "address": "洛阳市老城区中州路12号", "phone": "0379-6688-XXXX" }
+  ],
+  "users": [
+    { "id": 1, "username": "testuser", "password": "password123", "nickname": "张小婉", "phone": "13800138000", "avatar": "https://images.unsplash.com/photo-1543854589-32a26569eb21?w=100" }
+  ],
+  "notifications": []
+}
